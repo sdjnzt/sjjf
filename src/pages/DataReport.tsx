@@ -120,7 +120,7 @@ const DataReport: React.FC = () => {
       deviceId: 'SRV-001',
       deviceName: '核心服务器-01',
       dataType: '性能数据',
-      timestamp: '2025-01-15 14:30:25',
+      timestamp: '2025-07-15 14:30:25',
       status: 'success',
       dataSize: '2.3MB',
       uploadTime: '0.8s'
@@ -130,7 +130,7 @@ const DataReport: React.FC = () => {
       deviceId: 'NET-005',
       deviceName: '网络交换机-05',
       dataType: '流量数据',
-      timestamp: '2025-01-15 14:30:20',
+      timestamp: '2025-07-15 14:30:20',
       status: 'success',
       dataSize: '1.7MB',
       uploadTime: '0.5s'
@@ -140,7 +140,7 @@ const DataReport: React.FC = () => {
       deviceId: 'PWR-003',
       deviceName: 'UPS电源-03',
       dataType: '电力数据',
-      timestamp: '2025-01-15 14:30:15',
+      timestamp: '2025-07-15 14:30:15',
       status: 'failed',
       dataSize: '0.8MB',
       uploadTime: '--'
@@ -150,7 +150,7 @@ const DataReport: React.FC = () => {
       deviceId: 'SENS-012',
       deviceName: '温湿度传感器-12',
       dataType: '环境数据',
-      timestamp: '2025-01-15 14:30:10',
+      timestamp: '2025-07-15 14:30:10',
       status: 'pending',
       dataSize: '0.3MB',
       uploadTime: '--'
@@ -166,7 +166,7 @@ const DataReport: React.FC = () => {
     avgUploadTime: 0.7,
     successRate: 99.5,
     totalDataSize: '47.3GB',
-    lastUploadTime: '2025-01-15 14:30:25'
+    lastUploadTime: '2025-07-15 14:30:25'
   };
 
   // 手动上传数据

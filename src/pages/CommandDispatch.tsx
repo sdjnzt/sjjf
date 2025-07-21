@@ -210,8 +210,8 @@ const CommandDispatch: React.FC = () => {
       status: 'in_progress',
       description: '对A机柜区所有服务器进行例行健康检查，包括CPU、内存、硬盘状态',
       location: 'A机柜区',
-      createdAt: '2025-01-15 08:00',
-      dueDate: '2025-01-15 18:00',
+      createdAt: '2025-07-15 08:00',
+      dueDate: '2025-07-15 18:00',
       estimatedHours: 4,
       actualHours: 2
     },
@@ -224,8 +224,8 @@ const CommandDispatch: React.FC = () => {
       status: 'pending',
       description: 'UPS-02电源模块出现故障告警，需要立即检查和维修',
       location: '电力机房',
-      createdAt: '2025-01-15 14:23',
-      dueDate: '2025-01-15 16:00',
+      createdAt: '2025-07-15 14:23',
+      dueDate: '2025-07-15 16:00',
       estimatedHours: 2
     },
     {
@@ -237,8 +237,8 @@ const CommandDispatch: React.FC = () => {
       status: 'pending',
       description: '核心交换机固件版本升级，提升安全性和性能',
       location: '网络设备间',
-      createdAt: '2025-01-15 10:30',
-      dueDate: '2025-01-16 12:00',
+      createdAt: '2025-07-15 10:30',
+      dueDate: '2025-07-16 12:00',
       estimatedHours: 3
     }
   ]);
@@ -252,7 +252,7 @@ const CommandDispatch: React.FC = () => {
         location: 'B机柜区',
         severity: 'high',
         status: 'active',
-        timestamp: '2025-01-15 14:25',
+        timestamp: '2025-07-15 14:25',
         description: 'B机柜区温度超过26°C，可能影响设备正常运行',
         assignedTeam: ['张工程师', '赵技师'],
         responseTime: 5
@@ -263,7 +263,7 @@ const CommandDispatch: React.FC = () => {
         location: '电力机房',
         severity: 'critical',
         status: 'acknowledged',
-        timestamp: '2025-01-15 14:23',
+        timestamp: '2025-07-15 14:23',
         description: 'UPS-02电源模块故障，已切换至备用电源',
         assignedTeam: ['王师傅', '刘主管'],
         responseTime: 2

@@ -177,7 +177,7 @@ const RealTimeAlert: React.FC = () => {
       location: 'A机柜区-01',
       value: '97.8%',
       threshold: '90%',
-      timestamp: '2025-01-15 14:30:25',
+      timestamp: '2025-07-15 14:30:25',
       status: 'active',
       assignedTo: '运维工程师-陈建华',
       isRead: false,
@@ -191,8 +191,8 @@ const RealTimeAlert: React.FC = () => {
         '联系硬件供应商'
       ],
       history: [
-        { id: '1', action: '创建预警', operator: '监控系统', timestamp: '2025-01-15 14:30:25' },
-        { id: '2', action: '指派处理', operator: '值班主管', timestamp: '2025-01-15 14:31:00' }
+        { id: '1', action: '创建预警', operator: '监控系统', timestamp: '2025-07-15 14:30:25' },
+        { id: '2', action: '指派处理', operator: '值班主管', timestamp: '2025-07-15 14:31:00' }
       ]
     },
     {
@@ -206,7 +206,7 @@ const RealTimeAlert: React.FC = () => {
       location: 'A机柜区-中央',
       value: '32.5°C',
       threshold: '28°C',
-      timestamp: '2025-01-15 14:28:10',
+      timestamp: '2025-07-15 14:28:10',
       status: 'processing',
       assignedTo: '设备维护-刘志强',
       isRead: true,
@@ -220,9 +220,9 @@ const RealTimeAlert: React.FC = () => {
         '考虑临时降低设备负载'
       ],
       history: [
-        { id: '1', action: '创建预警', operator: '监控系统', timestamp: '2025-01-15 14:28:10' },
-        { id: '2', action: '指派处理', operator: '值班主管', timestamp: '2025-01-15 14:29:00' },
-                 { id: '3', action: '开始处理', operator: '设备维护-刘志强', timestamp: '2025-01-15 14:30:00' }
+        { id: '1', action: '创建预警', operator: '监控系统', timestamp: '2025-07-15 14:28:10' },
+        { id: '2', action: '指派处理', operator: '值班主管', timestamp: '2025-07-15 14:29:00' },
+                 { id: '3', action: '开始处理', operator: '设备维护-刘志强', timestamp: '2025-07-15 14:30:00' }
       ]
     },
     {
@@ -236,7 +236,7 @@ const RealTimeAlert: React.FC = () => {
       location: 'B机柜区-网络间',
       value: '150ms',
       threshold: '50ms',
-      timestamp: '2025-01-15 14:25:45',
+      timestamp: '2025-07-15 14:25:45',
       status: 'resolved',
       assignedTo: '网络工程师-张明轩',
       isRead: true,
@@ -250,10 +250,10 @@ const RealTimeAlert: React.FC = () => {
         '优化路由配置'
       ],
       history: [
-        { id: '1', action: '创建预警', operator: '监控系统', timestamp: '2025-01-15 14:25:45' },
-        { id: '2', action: '指派处理', operator: '值班主管', timestamp: '2025-01-15 14:26:00' },
-                 { id: '3', action: '开始处理', operator: '网络工程师-张明轩', timestamp: '2025-01-15 14:27:00' },
-         { id: '4', action: '问题解决', operator: '网络工程师-张明轩', timestamp: '2025-01-15 14:40:45' }
+        { id: '1', action: '创建预警', operator: '监控系统', timestamp: '2025-07-15 14:25:45' },
+        { id: '2', action: '指派处理', operator: '值班主管', timestamp: '2025-07-15 14:26:00' },
+                 { id: '3', action: '开始处理', operator: '网络工程师-张明轩', timestamp: '2025-07-15 14:27:00' },
+         { id: '4', action: '问题解决', operator: '网络工程师-张明轩', timestamp: '2025-07-15 14:40:45' }
       ]
     },
     {
@@ -267,7 +267,7 @@ const RealTimeAlert: React.FC = () => {
       location: '监控中心',
       value: '192.168.100.250',
       threshold: '白名单IP',
-      timestamp: '2025-01-15 14:22:30',
+      timestamp: '2025-07-15 14:22:30',
       status: 'processing',
       assignedTo: '安全工程师-王涛',
       isRead: true,
@@ -281,8 +281,8 @@ const RealTimeAlert: React.FC = () => {
         '加强访问控制'
       ],
       history: [
-        { id: '1', action: '创建预警', operator: '安全系统', timestamp: '2025-01-15 14:22:30' },
-        { id: '2', action: '指派处理', operator: '安全主管', timestamp: '2025-01-15 14:23:00' }
+        { id: '1', action: '创建预警', operator: '安全系统', timestamp: '2025-07-15 14:22:30' },
+        { id: '2', action: '指派处理', operator: '安全主管', timestamp: '2025-07-15 14:23:00' }
       ]
     },
     {
@@ -296,7 +296,7 @@ const RealTimeAlert: React.FC = () => {
       location: '电力机房',
       value: '15%',
       threshold: '20%',
-      timestamp: '2025-01-15 14:20:15',
+      timestamp: '2025-07-15 14:20:15',
       status: 'active',
       assignedTo: '电力工程师-李建国',
       isRead: false,
@@ -310,8 +310,8 @@ const RealTimeAlert: React.FC = () => {
         '通知相关部门'
       ],
       history: [
-        { id: '1', action: '创建预警', operator: '电力监控', timestamp: '2025-01-15 14:20:15' },
-        { id: '2', action: '指派处理', operator: '值班主管', timestamp: '2025-01-15 14:21:00' }
+        { id: '1', action: '创建预警', operator: '电力监控', timestamp: '2025-07-15 14:20:15' },
+        { id: '2', action: '指派处理', operator: '值班主管', timestamp: '2025-07-15 14:21:00' }
       ]
     }
   ];
