@@ -7,15 +7,13 @@ import {
   Typography,
   Checkbox,
   Progress,
-  Tooltip,
   Spin
 } from 'antd';
 import { 
   UserOutlined, 
   LockOutlined,
   SecurityScanOutlined,
-  SafetyOutlined,
-  ReloadOutlined
+  SafetyOutlined
 } from '@ant-design/icons';
 import { useNavigate } from 'react-router-dom';
 
@@ -266,9 +264,13 @@ const Login: React.FC = () => {
                   <Input 
                     prefix={<SafetyOutlined />}
                     placeholder="请输入验证码"
-                    style={{ width: 'calc(100% - 120px)' }}
+                    style={{ width: 'calc(100% - 110px)' }}
                   />
-                  <div className="captcha-image" onClick={refreshCaptcha}>
+                  <div 
+                    className="captcha-image" 
+                    onClick={refreshCaptcha}
+                    title="点击刷新验证码"
+                  >
                     {captcha && (
                       <img 
                         src={captcha.image} 
@@ -277,13 +279,6 @@ const Login: React.FC = () => {
                       />
                     )}
                   </div>
-                  <Tooltip title="刷新验证码">
-                    <Button 
-                      icon={<ReloadOutlined />} 
-                      onClick={refreshCaptcha}
-                      type="link"
-                    />
-                  </Tooltip>
                 </div>
               </Form.Item>
 
@@ -557,6 +552,11 @@ const Login: React.FC = () => {
             border-radius: 8px;
             overflow: hidden;
             cursor: pointer;
+            transition: all 0.3s;
+          }
+
+          .captcha-image:hover {
+            opacity: 0.8;
           }
 
           .password-strength {
