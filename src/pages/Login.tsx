@@ -135,7 +135,7 @@ const Login: React.FC = () => {
     try {
       await new Promise(resolve => setTimeout(resolve, 1000));
       
-      if (values.username === 'admin' && values.password === 'admin123') {
+      if (values.username === 'admin' && values.password === 'admin123456') {
         localStorage.setItem('isLoggedIn', 'true');
         localStorage.setItem('username', values.username);
         if (values.remember) {
